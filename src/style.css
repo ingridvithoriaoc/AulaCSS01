@@ -1,0 +1,71 @@
+header {
+    background-color: rgba(13, 37, 65, 1);
+    color: rgba(108, 152, 183, 1);
+    text-align: center;
+}
+
+/* falta editar o posicionamento */
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.seletores-superiores {
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 25px;
+}
+
+.hookers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    position: fixed;
+    right: 10px;
+    top: 16%
+}
+
+.hookers li {
+    margin-left: 25px;
+}
+
+footer {
+    display: flex;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.youTube a img {
+    width: 60%;
+    height: 60%;
+}
+
+.instagram {
+    width: 40%;
+    height: 10%;
+}
+
+footer p a img {
+    vertical-align: middle;
+    width: 10%;
+    margin-left: -70px;
+    height: auto;
+}
